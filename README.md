@@ -200,12 +200,19 @@ Dataset/RPL_Routing_Attacks.csv       # dataset
 model.ipynb                            # full pipeline, step by step, with explanations
 images/                                 # confusion matrix, class distribution, classification report
 README.md
+requirements.txt                       # Python dependencies
 ```
 
 ## How to Run
 
-Open [`model.ipynb`](model.ipynb) in Jupyter or VS Code and run all cells top to bottom.
-Requires `pandas`, `numpy`, `scikit-learn`.
+1. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Open [`model.ipynb`](model.ipynb) in Jupyter (`jupyter notebook`) or VS Code and run all
+   cells top to bottom.
 
 ## Dataset Citation
 
